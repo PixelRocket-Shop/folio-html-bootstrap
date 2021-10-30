@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="py-3 {{ config.classes.content }}">
+            <!-- Page Content Goes Here -->
+
+            <div class="container" data-scroll-section>
+
+                <!-- Hero-->
+                {{> widgets/hero }}
+                <!-- /Hero-->
+
+                <!-- Latest Projects Slideshow Top-->
+                <div class="mt-5">
+                    {{> 
+                        content/subtitle 
+                        title="Selected Work"
+                    }}
+                    <div class="position-relative">
+                        {{> swiper/swiper-latest-top }}
+                    </div>
+                </div>
+                <!-- / Latest Projects Slideshow Top-->
+
+                <!-- Latest Projects Slideshow Bottom-->
+                <div class="mt-3 mb-5">
+                    {{> swiper/swiper-latest-bottom }}
+                </div>
+                <!-- / Latest Projects Slideshow Bottom-->
+
+                <!-- Experience-->
+                {{> widgets/experience }}
+                <!-- / Experience-->                
+
+            </div>
+
+            <!-- Testimonials-->
+            {{> widgets/testimonials }}
+            <!-- / Testimonials-->
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+            show-cta="true"
+    }}
+        <!-- / Footer-->
+    </div>
+    <!-- Locomotive Scroll Container-->
+
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

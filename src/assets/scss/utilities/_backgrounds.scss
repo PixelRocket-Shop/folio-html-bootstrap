@@ -1,0 +1,12 @@
+.bg-img-cover {
+    height: 44rem;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+}
+
+@include media-breakpoint-down(lg) { 
+    .bg-img-cover {
+        height: 20rem;
+    }
+ }

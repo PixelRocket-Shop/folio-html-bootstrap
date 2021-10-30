@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="container py-3 {{ config.classes.content }}" data-scroll-section>
+            <!-- Page Content Goes Here -->
+
+            <h1 class="display-3 mb-5" data-scroll data-scroll-speed="6" data-scroll-position="top">About Me</h1>
+
+            <div class="row g-8">
+                <!-- Profile Image-->
+                <div class="col-12 col-md-5" data-scroll data-scroll-speed="6" data-scroll-position="top">
+                    <picture>
+                        <img class="img-fluid" src="{{webRoot}}/assets/images/avatar.jpg"
+                            alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+                <!-- / Profile Image-->
+
+                <!-- / Bio & CV Link-->
+                <div class="col-12 col-md-7">
+                    <div class="row g-5 g-xl-8">
+                        <div class="col-12 col-xl-7" data-scroll data-scroll-speed="4" data-scroll-position="top">
+                            <p class="lead">I'm Jenny Smith, a freelance web developer and designer based in London, United Kingdom.</p>
+                        
+                            <p>I'm passionate about creating engaging and easy-to-navigate layouts. I love the look of clean lines, sharp contrasts in color schemes or bold graphic assets paired with sophisticated illustrations. 
+                            
+                            <p>As an Ecommerce developer my work is focused on web design; abstract forms make up most projects these days because they're so popular among consumers who want more control over their shopping experience than ever before.</p>
+                        </div>
+                        <div class="col-12 col-xl-5" data-scroll data-scroll-speed="2" data-scroll-position="top">
+                            <a href="#" class="btn btn-dark w-100 d-flex align-items-center justify-content-center"><i class="ri-file-download-line ri-lg me-2"></i> Download My CV</a>
+                            <h5 class="fw-medium mt-6 mb-3">Find Me Online</h5>
+                            <ul class="list-unstyled">
+                                <li class="d-flex align-items-center mb-2"><i class="ri-github-line me-3 ri-lg"></i> <a class="link-body" href="#">Github</a></li>
+                                <li class="d-flex align-items-center mb-2"><i class="ri-facebook-line me-3 ri-lg"></i> <a class="link-body" href="#">Facebook</a></li>
+                                <li class="d-flex align-items-center mb-2"><i class="ri-twitter-line me-3 ri-lg"></i> <a class="link-body" href="#">Twitter</a></li>
+                                <li class="d-flex align-items-center mb-2"><i class="ri-codepen-line me-3 ri-lg"></i> <a class="link-body" href="#">Codepen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- / Bio & CV Link-->
+            </div>
+
+            <!-- Experience-->
+            {{> widgets/experience }}
+            <!-- / Experience-->
+
+            <!-- / Skills-->
+            {{> widgets/skills }}
+            <!-- / Skills-->
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+            show-cta="true"
+    }}
+        <!-- / Footer-->
+    </div>
+    <!-- /Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

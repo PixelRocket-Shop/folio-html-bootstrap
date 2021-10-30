@@ -1,0 +1,40 @@
+{
+    "entries": [
+        {
+            "testimonial": "Jenny offered creative logos without production deadlines too complicated or tight spots where others could not go. Not only does her work make us look good but also feels really nice working alongside someone you can trust!",
+            "person": "Emily Parkson",
+            "title": "Waterpark Theatre",
+            "img": "{{webRoot}}/assets/images/avatar-1.jpeg"
+        },
+        {
+            "testimonial": "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one.",
+            "person": "Patrick Smith",
+            "title": "Cologne Limited",
+            "img": "{{webRoot}}/assets/images/avatar-7.jpeg"
+        },
+        {
+            "testimonial": "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers.",
+            "person": "Harry Duckmore",
+            "title": "SB Design Limited",
+            "img": "{{webRoot}}/assets/images/avatar-6.jpeg"
+        },
+        {
+            "testimonial": "She's always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!",
+            "person": "Nelly Oliver",
+            "title": "Super 8 Design House",
+            "img": "{{webRoot}}/assets/images/avatar-4.jpeg"
+        },
+        {
+            "testimonial": "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers.",
+            "person": "Sarah Fell",
+            "title": "SFell Limited",
+            "img": "{{webRoot}}/assets/images/avatar-1.jpeg"
+        },
+        {
+            "testimonial": "She's always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!",
+            "person": "Henry Kingsom",
+            "title": "Henry Codes Ltd",
+            "img": "{{webRoot}}/assets/images/avatar-2.jpeg"
+        }
+    ]
+}

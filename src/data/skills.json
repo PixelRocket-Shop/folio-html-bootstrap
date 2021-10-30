@@ -1,0 +1,28 @@
+{
+    "entries": [
+        {
+            "skill": "Javascript",
+            "percent": "75"
+        },
+        {
+            "skill": "PHP",
+            "percent": "95"
+        },
+        {
+            "skill": "HTML",
+            "percent": "65"
+        },
+        {
+            "skill": "CSS",
+            "percent": "35"
+        },
+        {
+            "skill": "GraphQL",
+            "percent": "98"
+        },
+        {
+            "skill": "Python",
+            "percent": "45"
+        }
+    ]
+}

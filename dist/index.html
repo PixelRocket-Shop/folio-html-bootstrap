@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <!-- Page Meta Tags-->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="./assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+  <!-- Fix for custom scrollbar if JS is disabled-->
+  <noscript>
+    <style>
+      /**
+          * Reinstate scrolling for non-JS clients
+          */
+      .simplebar-content-wrapper {
+        overflow: auto;
+      }
+    </style>
+  </noscript>
+
+  <!-- Page Title -->
+  <title>Bootstrap 5 HTML Template</title>
+
+</head>
+<body class="">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        <nav data-scroll-section class="navbar navbar-expand-lg navbar-light bg-transparent mb-10">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center fade-in" href="./index.html" data-scroll>
+              <picture class="avatar me-3" data-scroll data-scroll-speed="10" data-scroll-direction="horizontal" data-scroll-position="top">
+                <img class="img-fluid rounded-circle" src="./assets/images/avatar-small.jpg" alt="HTML Bootstrap Template by Pixel Rocket">
+              </picture>
+              <span class="fw-bolder fs-6 d-flex justify-content-start" data-scroll-section>
+                <span class="fade-in" data-scroll data-scroll-speed="2" data-scroll-delay=".03" data-scroll-position="top">Jenny Smith</span>
+              </span>
+            </a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="ri-menu-3-line"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-scroll data-scroll-speed="4" data-scroll-delay=".6" data-scroll-position="top">
+              <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./work-listing.html">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item d-lg-none">
+                  <a class="nav-link btn-toggle-mode" href="#">Toggle Dark/Light Mode</a>
+                </li>
+              </ul>
+            </div>
+            <button class="btn-icon btn-toggle-mode ms-7 fade-in d-none d-lg-flex" data-scroll data-scroll-speed="-10" data-scroll-direction="horizontal" data-scroll-position="top"><i class="ri-sun-line"></i></button>
+          </div>
+        </nav>        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="py-3 ">
+            <!-- Page Content Goes Here -->
+
+            <div class="container" data-scroll-section>
+
+                <!-- Hero-->
+                <div class="mb-10">
+                    <p class="subtitle-sm" data-scroll data-scroll-speed="2" data-scroll-position="top">Hello there!</p>
+                    <h1 class="display-1 mb-4" data-scroll data-scroll-speed="4" data-scroll-position="top">I am Jenny Smith</h1>
+                    <p data-scroll data-scroll-speed="6" data-scroll-position="top" class="lead">London-based freelance <span class="fw-bold text-highlight" data-typed='{"backSpeed": 50,"strings": ["frontend developer", "fullstack developer", "web designer", "UX designer"]}'></span><span class="d-block">specializing in Magento, Wordpress & Shopify development</span></p>
+                </div>                <!-- /Hero-->
+
+                <!-- Latest Projects Slideshow Top-->
+                <div class="mt-5">
+                    <h2 
+                        class="display-6 border-bottom pb-5 mb-5 fade-in-up" 
+                        data-scroll data-scroll-position="bottom"
+                    >Selected Work</h2>                    <div class="position-relative">
+                        <div class="swiper-container swiper-linked-top">
+                          <div class="swiper-wrapper">
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-1.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-2.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-3.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-4.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-5.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-6.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-7.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="swiper-slide cursor-pointer">
+                                        <picture>
+                                            <img class="img-fluid" src="./assets/images/project-listing-8.jpg" alt="">
+                                        </picture>
+                                    </div>
+                          </div>
+                        </div>
+                        <div class="swiper-prev swiper-btn"><i class="ri-arrow-left-line"></i></div>
+                        <div class="swiper-next swiper-btn"><i class="ri-arrow-right-line"></i></div>                    </div>
+                </div>
+                <!-- / Latest Projects Slideshow Top-->
+
+                <!-- Latest Projects Slideshow Bottom-->
+                <div class="mt-3 mb-5">
+                    <div class="swiper-container swiper-linked-bottom">
+                      <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-1.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Shopify Fashion Store</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom Shopify Ecommerce platform for a fashion retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-2.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Magento</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Magento Furniture Store</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom Magento Ecommerce platform for a furniture retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-3.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Wordpress</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Wordpress Grocery Store</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a WooCommerce Ecommerce platform for a grocery platform.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-4.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Mobile</span> &middot; <span class='ms-2'>React Native</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Messaging App</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Creation of a custom React Native messaging app for a messaging SAAS startup.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-5.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Shopify Online Store</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom Shopify Ecommerce platform for a car retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-6.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Magento</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Magento Online Store</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom Magento Ecommerce platform for a pet food retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-7.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Wordpress</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Web Application</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom WooCommerce Ecommerce platform for a furniture retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="row gx-4 align-items-center">
+                    
+                                    <!-- Slide Image-->
+                                    <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                                      <picture>
+                                        <img class="img-fluid" src="./assets/images/project-listing-8.jpg" alt="">
+                                    </picture>
+                                    </div>
+                                    <!-- / Slide Image -->
+                    
+                                    <!-- Slide Text-->
+                                    <div class="col-12 col-md-6">
+                                      <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100"><span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span></p>
+                                      <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">Ecommerce Marketing</p>
+                                      <p class="small text-muted mb-2" data-swiper-parallax-x="-200">Design and development of a custom Shopify Ecommerce platform for a fashion retailer.</p>
+                                      <div class="mt-3" data-swiper-parallax-y="-15">
+                                        <a class="link-body" href="./work-single.html">View Project</a>
+                                      </div>
+                                    </div>
+                                    <!-- / Slide Text-->
+                                  </div>
+                                </div>
+                      </div>
+                    </div>                </div>
+                <!-- / Latest Projects Slideshow Bottom-->
+
+                <!-- Experience-->
+                <div class="py-6" data-scroll>
+                    <h2 
+                        class="display-6 border-bottom pb-5 mb-5 fade-in-up" 
+                        data-scroll data-scroll-position="bottom"
+                    >Experience</h2>                <!-- Single Experience-->
+                                <div 
+                                    class="row gx-2 mb-5 fade-in-up" 
+                                    data-scroll
+                                    data-scroll-position="bottom" 
+                                >
+                                    <div class="col-12 col-lg-4">
+                                        <p class="fw-bolder mb-1">NWD Designs Ltd</p>
+                                        <span class="text-muted small">(2020 - present)</span>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <p class="fw-bolder">Technical Lead</p>
+                                        <p class="text-muted fw-light fs-6">After two years of working in London, I joined the NWD Designs team. Our design group works with clients including Motorola and Nokia who are just some examples; Apple stands out among all others because it had such an impactful brand identity for decades until they rebranded recently.</p>
+                                        <a class="link-body" href="#">https://www.nwd.co.uk</a>
+                                    </div>
+                                </div>
+                                <!-- / Single Experience -->
+                                <!-- Single Experience-->
+                                <div 
+                                    class="row gx-2 mb-5 fade-in-up" 
+                                    data-scroll
+                                    data-scroll-position="bottom" 
+                                >
+                                    <div class="col-12 col-lg-4">
+                                        <p class="fw-bolder mb-1">Pinnacle Designs</p>
+                                        <span class="text-muted small">(2018 - 2020)</span>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <p class="fw-bolder">Lead Developer</p>
+                                        <p class="text-muted fw-light fs-6">Looking for a new challenge, I joined Pinnacle Designs. My role focused on helping our customers define their strategic branding needs and requirements to achieve an elegant end result that stands out among competitors&#x27; work.</p>
+                                        <a class="link-body" href="#">https://www.pinnacle-designs.co.uk</a>
+                                    </div>
+                                </div>
+                                <!-- / Single Experience -->
+                                <!-- Single Experience-->
+                                <div 
+                                    class="row gx-2 mb-5 fade-in-up" 
+                                    data-scroll
+                                    data-scroll-position="bottom" 
+                                >
+                                    <div class="col-12 col-lg-4">
+                                        <p class="fw-bolder mb-1">Super 8</p>
+                                        <span class="text-muted small">(2016 - 2018)</span>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <p class="fw-bolder">Senior Developer</p>
+                                        <p class="text-muted fw-light fs-6">I have always loved the idea of being in charge of a design team, so I joined Super 8 as a lead designer where we worked on amazing campaigns including the branding and advert assets for Facebook&#x27;s VR arm.</p>
+                                        <a class="link-body" href="#">https://www.supereight.co.uk</a>
+                                    </div>
+                                </div>
+                                <!-- / Single Experience -->
+                                <!-- Single Experience-->
+                                <div 
+                                    class="row gx-2 mb-5 fade-in-up" 
+                                    data-scroll
+                                    data-scroll-position="bottom" 
+                                >
+                                    <div class="col-12 col-lg-4">
+                                        <p class="fw-bolder mb-1">Cube Agency</p>
+                                        <span class="text-muted small">(2014 - 2016)</span>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <p class="fw-bolder">Graphic Designer</p>
+                                        <p class="text-muted fw-light fs-6">After finishing my degree in Graphic Design, I joined Cube agency in London in 2014 and worked on projects for companies such as Nestle, Spotify and Red Cabbage.</p>
+                                        <a class="link-body" href="#">https://www.cubeagency.co.uk</a>
+                                    </div>
+                                </div>
+                                <!-- / Single Experience -->
+                </div>                <!-- / Experience-->                
+
+            </div>
+
+            <!-- Testimonials-->
+            <!-- Testimonials -->
+            <div class="mt-8">
+              <div class="d-flex mb-4" data-scroll-section>
+                <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-offset="0">
+                      <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Jenny offered creative logos without production deadlines too complicated or tight spots where others could not go. Not only does her work make us look good but also feels really nice working alongside someone you can trust!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Emily Parkson</p>
+                                    <p class="small text-muted m-0 lh-1">Waterpark Theatre</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-7.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Patrick Smith</p>
+                                    <p class="small text-muted m-0 lh-1">Cologne Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-6.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Harry Duckmore</p>
+                                    <p class="small text-muted m-0 lh-1">SB Design Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "She&#x27;s always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-4.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Nelly Oliver</p>
+                                    <p class="small text-muted m-0 lh-1">Super 8 Design House</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I was really pleased with the logo designs that Jenny created for my organization. The logos are instantly recognizable, making it easy to find our brand in a crowded market of other education providers."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Sarah Fell</p>
+                                    <p class="small text-muted m-0 lh-1">SFell Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "She&#x27;s always professional and clear in her communications, but it was when she started giving me advice on how to improve our website design that really made a difference for us--she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-2.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Henry Kingsom</p>
+                                    <p class="small text-muted m-0 lh-1">Henry Codes Ltd</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>    </div>
+              </div>
+              <div class="d-flex justify-content-end" data-scroll-section>
+                <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="8" data-scroll-offset="0">
+                      <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Working with Jenny was an absolute dream. She offered us the perfect logo without any complicated deadlines or tight spots that other designers could not navigate to save their life!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-5.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Peter Jackson</p>
+                                    <p class="small text-muted m-0 lh-1">WimWam Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one."
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-6.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Patricia Nelson</p>
+                                    <p class="small text-muted m-0 lh-1">Cologne Limited</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "Working with Jenny was a real pleasure. Not only does her work make us look good but also feels really nice working alongside someone you can trust both personally and professionally!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-7.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Stephen King</p>
+                                    <p class="small text-muted m-0 lh-1">King Coding Ltd</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "With a creative approach to logos, she was able provide us with custom designs without ever having an unrealistic deadline. Not only does the work make our company look good but also feel really nice when we can trust someone!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-3.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Simon Smith</p>
+                                    <p class="small text-muted m-0 lh-1">Brand Juice Co</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I&#x27;ve never met anyone who is more professional and clear in their communications than Jenny, but it was when she started giving me advice on how to improve our website design that really made a difference for us -- she had so many good ideas!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-1.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Joe Hill</p>
+                                    <p class="small text-muted m-0 lh-1">Joe Hill Software</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>          <div class="card card-testimonial">
+                          <div class="card-body">
+                            <p class="mb-1">
+                                "I can&#x27;t say enough good things about Jenny! We started as a client last year after she made some major changes for us which turned out beautifully. We&#x27;ll be a client for as long as she will work with us!"
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <picture class="avatar me-3">
+                                    <img class="img-fluid rounded-circle" src="./assets/images/avatar-2.jpeg" alt="">
+                                </picture>
+                                <div>
+                                    <p class="small fw-bolder mb-2 lh-1">Rob Waite</p>
+                                    <p class="small text-muted m-0 lh-1">RW Software Services</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>    </div>
+              </div>
+            </div>
+            <!-- / Testimonials-->            <!-- / Testimonials-->
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        <!-- Footer-->
+        <div class="d-flex align-items-center justify-content-center flex-column col-lg-7 col-xl-6 col-xxl-5 text-center mx-auto mt-10" data-scroll-section>
+            <h4 class="display-5 mb-5" data-scroll data-scroll-speed=".8" data-scroll-delay="0.05">Ready to discuss your project requirements?</h4>
+            <a href="./contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+        
+        <footer class="border-top mt-10 pt-5 pb-8  " data-scroll-section>
+        <div class="container d-flex justify-content-between">
+            <p class="small">All rights reserved. © Jenny Smith 2021. Template created by <a class="link-body" href="https://www.pixelrocket.store">Pixel Rocket</a></p>
+            <ul class="list-unstyled d-flex align-items-center">
+                <li class="ms-3"><a class="text-decoration-none text-muted" href="#"><i class="ri-github-fill"></i></a></li>
+                <li class="ms-3"><a class="text-decoration-none text-muted" href="#"><i class="ri-facebook-fill"></i></a></li>
+                <li class="ms-3"><a class="text-decoration-none text-muted" href="#"><i class="ri-twitter-fill"></i></a></li>
+            </ul>
+        </div>
+        </footer>
+        <!-- / Footer-->
+        <!-- / Footer-->
+    </div>
+    <!-- Locomotive Scroll Container-->
+
+
+    <!-- Theme JS -->
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+</body>
+
+</html>

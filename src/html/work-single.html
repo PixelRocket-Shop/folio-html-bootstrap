@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="py-3 {{ config.classes.content }}" data-scroll-section>
+            <!-- Page Content Goes Here -->
+
+            <!-- Portfolio Title-->
+            <div class="container">
+                <h1 class="display-3 mb-2" data-scroll data-scroll-speed="2" data-scroll-position="top">Shopify Online Store</h1>
+                <p class="subtitle-xs" data-scroll data-scroll-speed="4" data-scroll-position="top"><span class="me-2">Ecommerce</span> · <span class="ms-2">Mobile App</span></p>
+                <p class="lead" data-scroll data-scroll-speed="6" data-scroll-position="top">Design and build of a Ecommerce platform.</p>
+            </div>
+            <!-- Portfolio Title-->
+
+            <!-- Main Portfolio Image-->
+            <div class="my-9 bg-img-cover fade-in-up" data-scroll data-scroll-position="top" style="background-image: url({{webRoot}}/assets/images/project-1.jpg)"></div>
+            <!-- / Main Portfolio Image-->
+
+
+            <!-- Portfolio Intro-->
+            <div class="container">
+                <div class="row gx-8 gy-5" data-scroll
+                data-scroll-position="bottom">
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="top">
+                        <p class="m-0 subtitle-sm">The Client</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="top">
+                        <h2 class="lead fw-bolder mb-4">Heritage Furniture</h2>
+                        <p>Heritage Furniture is a family-owned business located in Nottingham, United Kingdom. They
+                            have 12 locations throughout the UK and have been online since 2007.</p>
+                    </div>
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="top">
+                        <p class="m-0 subtitle-sm">The Project</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="top">
+                        <p>The current Heritage Ecommerce platform ran on OS Commerce. I migrated the existing sales
+                            orders and customer data to our new Shopify platform. I designed a new interface using the
+                            updating branding supplied by Heritage's in-house design team.</p>
+                        <p>I also designed and built a custom React Native application that used Shopify's API to handle
+                            online sales and integrated with Heritage's new Ecommerce website to allow customers to
+                            place new orders and view previous orders through the new app.</p>
+                        <a class="link-body" href="#">View Website <i class="ri-external-link-line ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- / Portfolio Intro-->
+
+            <!-- Portfolio Image-->
+            <div class="my-9 bg-img-cover fade-in-up" data-scroll data-scroll-position="bottom" style="background-image: url({{webRoot}}/assets/images/project-2.jpg)"></div>
+            <!-- / Portfolio Image-->
+
+            <!-- Project Summary-->
+            <div class="container">
+                <div class="row gx-8 gy-5">
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="bottom">
+                        <p class="m-0 subtitle-sm">What I Delivered</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="bottom">
+                        <ul>
+                            <li class="mb-2">React Native mobile application</li>
+                            <li class="mb-2">Shopify Ecommerce platform</li>
+                            <li class="mb-2">Data transfer</li>
+                            <li class="mb-2">Website hosting</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="bottom">
+                        <p class="m-0 subtitle-sm">My Services</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="bottom">
+                        <ul>
+                            <li class="mb-2">UX and UI Design</li>
+                            <li class="mb-2">Solution architecture</li>
+                            <li class="mb-2">Application development</li>
+                            <li class="mb-2">Marketing strategy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Summary-->
+
+            <!-- Client Testimonial-->
+            <div class="container py-10">
+                <div class="row gx-8 align-items-center">
+                    <div 
+                        class="col-12 col-md-6 fade-in-left"
+                        data-scroll data-scroll-position="bottom"
+                    >
+                        <span class="d-block text-primary lh-1 display-1">"</span>
+                        <p class="fs-4 mt-n6 mb-5">
+                            Jenny has excellent software intuition and was able to quickly understand our business
+                            requirements. She did a fantastic job with the redesign of our website and we couldn't be
+                            happier!
+                        </p>
+                        <p class="lead fw-bolder mb-1">John Bridges</p>
+                        <p class="text-muted">CEO, Heritage Furniture</p>
+                    </div>
+                    <div 
+                        class="col-12 col-md-6 fade-in-right"
+                        data-scroll data-scroll-position="bottom"
+                    >
+                        <picture>
+                            <img class="img-fluid" src="{{webRoot}}/assets/images/project-3.jpg"
+                                alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- Client Testimonial-->
+
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+            show-cta="true"
+    }}
+        <!-- / Footer-->
+    </div>
+    <!-- /Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

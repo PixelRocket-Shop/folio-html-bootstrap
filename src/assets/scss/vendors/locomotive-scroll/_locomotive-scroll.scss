@@ -1,0 +1,37 @@
+/* apply transition once page loaded */
+.page-loaded .fade-in, .page-loaded .fade-in-up, .page-loaded .fade-in-down, .page-loaded .fade-in-left, .page-loaded .fade-in-right {
+    transition-property: opacity, transform;
+    transition-timing-function: var(--theme-cubic-bezier);
+    transition-duration: .6s;
+}
+
+/* opacity 0 for all our custom animations */
+.fade-in, .fade-in-up, .fade-in-down, .fade-in-left, .fade-in-right {
+    opacity: 0;
+}
+
+/* opacity 1 for all our custom animations when in view */
+.fade-in.animate, .fade-in-up.animate, .fade-in-down.animate, .fade-in-left.animate, .fade-in-right.animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+/* fade in down element when in view */
+.fade-in-down {
+    transform: translate3D(0, calc(var(--theme-locomotive-scroll-animation-distance) * -1), 0);
+}
+
+/* fade in up element when in view */
+.fade-in-up {
+    transform: translate3D(0, var(--theme-locomotive-scroll-animation-distance), 0);
+}
+
+/* fade in left element when in view */
+.fade-in-left {
+    transform: translate3D(calc(var(--theme-locomotive-scroll-animation-distance) * -1), 0, 0);
+}
+
+/* fade in right element when in view */
+.fade-in-right {
+    transform: translate3D(var(--theme-locomotive-scroll-animation-distance), 0, 0);
+}

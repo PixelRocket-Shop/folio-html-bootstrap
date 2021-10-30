@@ -1,0 +1,39 @@
+.nav-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand, .navbar-brand, .navbar-light .navbar-nav .nav-link:focus {
+    position: relative;
+    color: var(--theme-nav-link);
+
+    &:hover, &:active {
+        color: var(--theme-nav-link-hover);
+    }
+}
+
+.nav-link:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: .8rem;
+    height: 0;
+    background: $primary;
+    transition: all ease-in .2s;
+    z-index: -1;
+}
+
+.nav-link:hover:after {
+    height: 9px;
+}
+
+/* Mobile Navigation styles */
+@include media-breakpoint-down(lg) {
+    .nav-item {
+        margin: .5rem 0;
+    }
+    .nav-link {
+        display: table;
+    }
+}

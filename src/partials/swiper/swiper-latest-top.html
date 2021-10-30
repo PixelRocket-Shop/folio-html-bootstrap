@@ -1,0 +1,15 @@
+<div class="swiper-container swiper-linked-top">
+  <div class="swiper-wrapper">
+    {{#if (config work)}}
+        {{#each work.entries}}
+            <div class="swiper-slide cursor-pointer">
+                <picture>
+                    <img class="img-fluid" src="{{ img }}" alt="{{ config.defaultImgAlt }}">
+                </picture>
+            </div>
+        {{/each}}
+      {{/if}}
+  </div>
+</div>
+<div class="swiper-prev swiper-btn"><i class="ri-arrow-left-line"></i></div>
+<div class="swiper-next swiper-btn"><i class="ri-arrow-right-line"></i></div>

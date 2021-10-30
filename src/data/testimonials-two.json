@@ -1,0 +1,40 @@
+{
+    "entries": [
+        {
+            "testimonial": "Working with Jenny was an absolute dream. She offered us the perfect logo without any complicated deadlines or tight spots that other designers could not navigate to save their life!",
+            "person": "Peter Jackson",
+            "title": "WimWam Limited",
+            "img": "{{webRoot}}/assets/images/avatar-5.jpeg"
+        },
+        {
+            "testimonial": "I had the best experience working with Jenny. She is a creative, talented and fun person to be around! Her attention-to detail made it easy for me as her client because we knew what was wanted from day one.",
+            "person": "Patricia Nelson",
+            "title": "Cologne Limited",
+            "img": "{{webRoot}}/assets/images/avatar-6.jpeg"
+        },
+        {
+            "testimonial": "Working with Jenny was a real pleasure. Not only does her work make us look good but also feels really nice working alongside someone you can trust both personally and professionally!",
+            "person": "Stephen King",
+            "title": "King Coding Ltd",
+            "img": "{{webRoot}}/assets/images/avatar-7.jpeg"
+        },
+        {
+            "testimonial": "With a creative approach to logos, she was able provide us with custom designs without ever having an unrealistic deadline. Not only does the work make our company look good but also feel really nice when we can trust someone!",
+            "person": "Simon Smith",
+            "title": "Brand Juice Co",
+            "img": "{{webRoot}}/assets/images/avatar-3.jpeg"
+        },
+        {
+            "testimonial": "I've never met anyone who is more professional and clear in their communications than Jenny, but it was when she started giving me advice on how to improve our website design that really made a difference for us -- she had so many good ideas!",
+            "person": "Joe Hill",
+            "title": "Joe Hill Software",
+            "img": "{{webRoot}}/assets/images/avatar-1.jpeg"
+        },
+        {
+            "testimonial": "I can't say enough good things about Jenny! We started as a client last year after she made some major changes for us which turned out beautifully. We'll be a client for as long as she will work with us!",
+            "person": "Rob Waite",
+            "title": "RW Software Services",
+            "img": "{{webRoot}}/assets/images/avatar-2.jpeg"
+        }
+    ]
+}

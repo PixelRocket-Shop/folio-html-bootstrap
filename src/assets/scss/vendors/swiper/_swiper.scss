@@ -1,0 +1,45 @@
+.page-loaded .btn-swiper {
+    transition: color ease-in .2s;
+}
+
+.btn-swiper:hover {
+    color: $danger;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+    background: $gray-600;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-scrollbar-drag {
+    background: $danger;
+}
+
+.swiper-btn {
+    cursor: pointer;
+    transition: all ease-in .2s;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    z-index: 99;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    box-shadow: $box-shadow;
+    border-radius: 50%;
+    background: $gray-900;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.swiper-next {
+        left: auto;
+        right: -25px;
+    }
+
+    &:hover {
+        opacity: .50;
+    }
+}

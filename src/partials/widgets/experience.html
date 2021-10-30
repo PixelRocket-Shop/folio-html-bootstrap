@@ -1,0 +1,27 @@
+<div class="py-6" data-scroll>
+    {{> 
+        content/subtitle 
+        title="Experience"
+    }}
+    {{#if (config experience)}}
+            {{#each experience.entries}}
+                <!-- Single Experience-->
+                <div 
+                    class="row gx-2 mb-5 fade-in-up" 
+                    data-scroll
+                    data-scroll-position="bottom" 
+                >
+                    <div class="col-12 col-lg-4">
+                        <p class="fw-bolder mb-1">{{ company }}</p>
+                        <span class="text-muted small">({{ years }})</span>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <p class="fw-bolder">{{ title }}</p>
+                        <p class="text-muted fw-light fs-6">{{ description }}</p>
+                        <a class="link-body" href="#">{{ url-title }}</a>
+                    </div>
+                </div>
+                <!-- / Single Experience -->
+            {{/each}}
+    {{/if}}
+</div>

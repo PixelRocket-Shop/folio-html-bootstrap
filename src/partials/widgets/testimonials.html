@@ -1,0 +1,22 @@
+<!-- Testimonials -->
+<div class="mt-8">
+  <div class="d-flex mb-4" data-scroll-section>
+    <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-offset="0">
+      {{#if (config testimonials) }}
+        {{#each testimonials.entries}}
+          {{> testimonials/testimonial-single this }}
+        {{/each}}
+      {{/if}}
+    </div>
+  </div>
+  <div class="d-flex justify-content-end" data-scroll-section>
+    <div class="testimonials" data-scroll data-scroll-direction="horizontal" data-scroll-speed="8" data-scroll-offset="0">
+      {{#if (config testimonials-two) }}
+        {{#each testimonials-two.entries}}
+          {{> testimonials/testimonial-single this }}
+        {{/each}}
+      {{/if}}
+    </div>
+  </div>
+</div>
+<!-- / Testimonials-->

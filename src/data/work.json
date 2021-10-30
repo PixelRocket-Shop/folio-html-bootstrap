@@ -1,0 +1,52 @@
+{
+    "entries": [
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "title": "Shopify Fashion Store",
+            "description": "Design and development of a custom Shopify Ecommerce platform for a fashion retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-2.jpg",
+            "title": "Magento Furniture Store",
+            "description": "Design and development of a custom Magento Ecommerce platform for a furniture retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Magento</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-3.jpg",
+            "title": "Wordpress Grocery Store",
+            "description": "Design and development of a WooCommerce Ecommerce platform for a grocery platform.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Wordpress</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-4.jpg",
+            "title": "Messaging App",
+            "description": "Creation of a custom React Native messaging app for a messaging SAAS startup.",
+            "category": "<span class='me-2'>Mobile</span> &middot; <span class='ms-2'>React Native</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-5.jpg",
+            "title": "Shopify Online Store",
+            "description": "Design and development of a custom Shopify Ecommerce platform for a car retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-6.jpg",
+            "title": "Magento Online Store",
+            "description": "Design and development of a custom Magento Ecommerce platform for a pet food retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Magento</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-7.jpg",
+            "title": "Web Application",
+            "description": "Design and development of a custom WooCommerce Ecommerce platform for a furniture retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Wordpress</span>"
+        },
+        {
+            "img": "{{webRoot}}/assets/images/project-listing-8.jpg",
+            "title": "Ecommerce Marketing",
+            "description": "Design and development of a custom Shopify Ecommerce platform for a fashion retailer.",
+            "category": "<span class='me-2'>Ecommerce</span> &middot; <span class='ms-2'>Shopify</span>"
+        }
+    ]
+}

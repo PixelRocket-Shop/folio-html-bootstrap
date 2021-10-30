@@ -1,0 +1,19 @@
+/* generic site wide styles*/
+body {
+    overflow-x: hidden;
+    background: var(--theme-body-bg);
+    color: var(--theme-body-color);
+}
+
+.container, .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.disable-child-pointer * {
+    pointer-events: none;
+}

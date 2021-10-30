@@ -1,0 +1,42 @@
+.form-control, .form-control:focus {
+    background: var(--theme-form-input-bg);
+    color: var(--theme-form-input-color);
+}
+
+.form-check-custom {
+    position: relative;
+    overflow: hidden;
+}
+
+.form-check-input-custom {
+    position: absolute;
+    left: -100px;
+}
+
+.form-check-custom-label {
+    background: var(--theme-form-check-bg);
+    border-radius: $border-radius;
+    padding: $input-padding-y $input-padding-x;
+    display: flex;
+    align-items: center;
+    font-size: $input-btn-font-size;
+    cursor: pointer;
+    transition: background-color ease-in .2s, color ease-in .2s;
+}
+
+.form-check-custom-label:before {
+    font-family: var(--theme-font-icon);
+    font-style: var(--theme-font-icon-style);
+    content: "\EB7D";
+    margin-right: .35rem;
+    font-size: 1.25rem;
+}
+
+.form-check-input-custom:checked + label {
+    background-color: var(--theme-form-check-checked-bg);
+    color: white;
+}
+
+.form-check-input-custom:checked + label:before {
+    content: "\EB80"
+}

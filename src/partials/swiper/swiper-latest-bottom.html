@@ -1,0 +1,31 @@
+<div class="swiper-container swiper-linked-bottom">
+  <div class="swiper-wrapper">
+    {{#if (config work)}}
+        {{#each work.entries}}
+            <div class="swiper-slide">
+              <div class="row gx-4 align-items-center">
+
+                <!-- Slide Image-->
+                <div class="col-12 col-md-6" data-swiper-parallax-x="-100">
+                  <picture>
+                    <img class="img-fluid" src="{{ img }}" alt="{{ config.defaultImgAlt }}">
+                </picture>
+                </div>
+                <!-- / Slide Image -->
+
+                <!-- Slide Text-->
+                <div class="col-12 col-md-6">
+                  <p class="subtitle-xs mb-0 mt-4 mt-md-0" data-swiper-parallax-x="-100">{{{ category }}}</p>
+                  <p class="fw-bolder lead mb-3 mt-2" data-swiper-parallax-x="-150">{{ title }}</p>
+                  <p class="small text-muted mb-2" data-swiper-parallax-x="-200">{{ description }}</p>
+                  <div class="mt-3" data-swiper-parallax-y="-15">
+                    <a class="link-body" href="{{webRoot}}/work-single.html">View Project</a>
+                  </div>
+                </div>
+                <!-- / Slide Text-->
+              </div>
+            </div>
+        {{/each}}
+      {{/if}}
+  </div>
+</div>

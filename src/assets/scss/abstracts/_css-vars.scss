@@ -1,0 +1,73 @@
+:root {
+    /* Bootstrap vars */
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+    --bs-spacer: #{$spacer};
+    --bs-gutter-width: #{$grid-gutter-width};
+
+
+    /* Icon font family */
+    --theme-font-icon: 'remixicon';
+    --theme-font-icon-style: 'normal';
+
+    /* Avatar */
+    --theme-avatar-size: 45px;
+
+    /* Portfolio Modal Image Fixed Height Size */
+    --theme-portfolio-img-height: 600px;
+
+    /* Cubic Bezier Animations */
+    --theme-cubic-bezier: cubic-bezier(.25,.46,.45,.94);
+
+    /* Locomotive Scroll Custom Animation Distance */
+    --theme-locomotive-scroll-animation-distance: 15px;
+
+    /* theme breakpoints using Bootstrap sass map */
+    @each $breakpoint, $value in $grid-breakpoints {
+        --theme-breakpoint-#{$breakpoint}: #{$value};
+    }
+
+    /* theme max widths using sass map */
+    @each $breakpoint, $value in $container-max-widths {
+        --theme-maxwidth-breakpoint-#{$breakpoint}: #{$value};
+    }
+
+    /* Dark/Light Mode */
+    --theme-body-bg: #{$body-bg};
+    --theme-body-color: #{$body-color};
+    --theme-nav-link: #{$body-color};
+    --theme-nav-link-hover: #{$body-color};
+    --theme-btn-icon-bg: #{$gray-900};
+    --theme-btn-icon-color: #{$white};
+    --theme-border-color: #{$border-color};
+    --theme-link-body-color: #{$body-color};
+    --theme-link-body-psuedo-bg: #{$primary};
+    --theme-card-bg: #{$white};
+    --theme-card-box-shadow: #{$box-shadow-sm};
+    --theme-card-color: #{$body-color};
+    --theme-form-input-bg: #{$input-bg};
+    --theme-form-input-color: #{$input-color};
+    --theme-form-check-bg: #{$gray-100};
+    --theme-form-check-checked-bg: #{$gray-900};
+    --theme-darker-primary: #31b681;
+}
+
+
+/* dark mode */
+:root[data-mode=dark] {
+    --theme-body-bg: #{$gray-900};
+    --theme-body-color: #{$white};
+    --theme-nav-link: #{$white};
+    --theme-nav-link-hover: #{$white};
+    --theme-btn-icon-bg: #{$white};
+    --theme-btn-icon-color: #{$gray-900};
+    --theme-border-color: rgba(255,255,255, .2);
+    --theme-link-body-color: #{$white};
+    --theme-link-body-psuedo-bg: var(--theme-darker-primary);
+    --theme-card-bg: #{$gray-800};
+    --theme-card-box-shadow: none;
+    --theme-card-color: #{$white};
+    --theme-form-input-bg: #{$gray-800};
+    --theme-form-input-color: #{$white};
+    --theme-form-check-bg: #{$gray-800};
+    --theme-form-check-checked-bg: var(--theme-darker-primary);
+}
