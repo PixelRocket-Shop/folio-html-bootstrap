@@ -79,3 +79,16 @@
     content: "";
     display: block;
 }
+
+
+@include media-breakpoint-down(lg) {
+    .typed-elem {
+        min-height: 10rem;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .typed-elem {
+        min-height: 14rem;
+    }
+}
